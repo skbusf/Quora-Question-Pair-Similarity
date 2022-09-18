@@ -43,13 +43,13 @@ Figure 1: First 10 instances of the dataset
 
 The dataset consists of 63.08% (255,027) instances with class variable 0 and 36.91% (149,263) instances with class variable 1. The maximum length of question1 is 623 characters and the question2 is 1169 characters.
 
-![](RackMultipart20220918-1-603tow_html_5de582d8d3ba11ef.png)
+![Count Plot](https://github.com/skbusf/Quora-Question-Pair-Similarity/blob/main/Images/Count%20Plot.png)
 
 Figure 2: Count plot of the class variable of the data
 
 The histogram of the character length distribution shows that there is not much difference between the distribution of question1 and question2.
 
-![](RackMultipart20220918-1-603tow_html_15ba9e21d544db3e.png)
+![Character Distribution Histogram](https://github.com/skbusf/Quora-Question-Pair-Similarity/blob/main/Images/Distribution%20Chart.png)
 
 Figure 3: Character Length Distribution of Question1 and Question2
 
@@ -139,7 +139,7 @@ GridSearch and 10 fold cross validation is the technique used in hyperparameter 
 
 The table of Model type, Log Loss and Accuracy obtained for each model is as below.
 
-
+![Model Performance](https://github.com/skbusf/Quora-Question-Pair-Similarity/blob/main/Images/ModelPerformance.png)
 
 Low log loss value and more accuracy value for the model are desired. The log loss values are 0.5715, 0.5422, 0.5404 and Accuracy values are 0.6571, 0.6792, and 0.6791 for Logistic Regression, Random Forest and XGBoost respectively.
 
@@ -147,17 +147,17 @@ Logistic regression performed the least compared to the other 2 models. Random F
 
 The Random Forest Model has a prediction accuracy of 67.92% i.e. there is a 67.92% chance that the model's predicted class value is correct and the Log loss value of 0.5422 depicts how close we are to the actual class value. These values give us the similarity between question1 and the question2 of the dataset.
 
-![](RackMultipart20220918-1-603tow_html_3177322b1dbd3404.png)
+![Logistic Regression](https://github.com/skbusf/Quora-Question-Pair-Similarity/blob/main/Images/Logistic%20Regression.png)
 
-Figure 4: Probabilities distribution by class for test set in Logistic Regression
+Figure 5: Probabilities distribution by class for test set in Logistic Regression
 
-![](RackMultipart20220918-1-603tow_html_7de2866a3a534fe8.png)
+![Random Forest](https://github.com/skbusf/Quora-Question-Pair-Similarity/blob/main/Images/RForest.png)
 
-Figure 5: Probabilities distribution by class for test set in Random Forest
+Figure 6: Probabilities distribution by class for test set in Random Forest
 
-![](RackMultipart20220918-1-603tow_html_aff090eda42a0e2b.png)
+![XGBoost](https://github.com/skbusf/Quora-Question-Pair-Similarity/blob/main/Images/XGB.png)
 
-Figure 6: Probabilities distribution by class for test set in XGBoost
+Figure 7: Probabilities distribution by class for test set in XGBoost
 
 The probabilities distribution by dependent variable on the testing set for each of the models shown above depicts that there is a lot of variability in the distribution of the Logistic Regression model which means that the model is not performing as good as Random Forest or XGBoost.
 
