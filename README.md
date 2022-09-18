@@ -35,7 +35,7 @@ The dataset used for the problem is taken from [Kaggle](https://www.kaggle.com/c
 
 The dataset has been split into _ **95% and 5% for training and testing** _ respectively.
 
-![](RackMultipart20220918-1-603tow_html_9f8f51fc45fc360f.png)
+![Data Instances](https://github.com/skbusf/Quora-Question-Pair-Similarity/blob/main/Images/DataInstances.png)
 
 Figure 1: First 10 instances of the dataset
 
